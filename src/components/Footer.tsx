@@ -51,6 +51,12 @@ const Footer = () => (
 
       <div className="mt-10 pt-8 border-t border-border text-center text-xs text-muted-foreground">
         © {new Date().getFullYear()} Hair Salon XAVI. Të gjitha të drejtat e rezervuara.
+                <p>
+          Created by{" "}
+          <a href="https://enestahiri.com" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-foreground transition-colors underline underline-offset-2">
+            enestahiri.com
+          </a>
+        </p>
       </div>
     </div>
   </footer>
